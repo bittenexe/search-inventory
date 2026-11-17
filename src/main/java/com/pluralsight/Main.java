@@ -13,13 +13,21 @@ public class Main {
     }
 
     public static ArrayList<Product> getInventory() {
-        ArrayList<Product> product = new ArrayList<>();
-        Product p1 = new Product(1, "Strawberry", 1.99);
-        product.add(p1);
-        return product;
+        ArrayList<Product> products = new ArrayList<>();
+        Product p1 = new Product(13434, "Strawberries", 1.99);
+        Product p2 = new Product(22345, "Grapes", 2.99);
+        Product p3 = new Product(10534, "Bananas", .99);
+        Product p4 = new Product(69678, "Mangoes", 3.99);
+        Product p5 = new Product(26501, "Coconut", 4.99);
+
+        products.add(p1);
+        products.add(p2);
+        products.add(p3);
+        products.add(p4);
+        products.add(p5);
+        return products;
 
     }
-
 
 }
 

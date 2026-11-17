@@ -1,7 +1,6 @@
 package com.pluralsight;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class StoreApp {
     public static void main(String[] args) {
