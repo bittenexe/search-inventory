@@ -15,8 +15,7 @@ public class StoreApp {
     }
     public static ArrayList<Product> getInventory() {
         ArrayList<Product> inventory = new ArrayList<Product>();
-        // this method loads product objects into inventory
-        // and its details are not shown
+    
         return inventory;
     }
 }
